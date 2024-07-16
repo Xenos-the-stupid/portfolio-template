@@ -7,7 +7,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="container px-4 sticky mx-auto h-[80px] flex items-center justify-between">
+    <header className="max-w-[1200px] px-[42px] sticky mx-auto h-[80px] flex items-center justify-between">
       <Link
         href={"/"}
         className="font-semibold text-xl">

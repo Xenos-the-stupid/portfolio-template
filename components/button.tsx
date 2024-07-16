@@ -1,6 +1,6 @@
 import { ComponentProps } from "react";
 
-const button = ({ ...props }: ComponentProps<"button">) => {
+const Button = ({ ...props }: ComponentProps<"button">) => {
   return (
     <button
       {...props}
@@ -9,4 +9,4 @@ const button = ({ ...props }: ComponentProps<"button">) => {
   );
 };
 
-export default button;
+export default Button;
