@@ -14,7 +14,7 @@ const Navbar = () => {
         Logo
       </Link>
       <div
-        className={`flex items-center gap-6 max-md:flex-col max-md:fixed max-md:inset-0 max-md:justify-center bg-[#2d2d2d]/80 max-md:text-white max-md:backdrop-blur-sm duration-300 ${
+        className={`flex items-center gap-6 max-md:flex-col max-md:fixed max-md:inset-0 max-md:justify-center max-md:bg-[#2d2d2d]/80 max-md:text-white max-md:backdrop-blur-sm duration-300 ${
           isOpen || "max-md:translate-x-full"
         }`}>
         <Link href={"/about"}>About</Link>
@@ -26,7 +26,9 @@ const Navbar = () => {
           <X />
         </button>
       </div>
-      <button onClick={() => setIsOpen((prev) => !prev)}>
+      <button
+        className="max-md:block hidden"
+        onClick={() => setIsOpen((prev) => !prev)}>
         <Menu />
       </button>
     </header>
