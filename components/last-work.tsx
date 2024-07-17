@@ -45,7 +45,7 @@ const LastWork = () => {
             <Image
               src={work.image}
               alt="work"
-              className="mx-auto"
+              className="mx-auto max-md:w-full"
               width={390}
               height={330}
             />
