@@ -1,3 +1,4 @@
+import Contact from "@/components/contact";
 import Hero from "@/components/hero";
 import LastWork from "@/components/last-work";
 import Marks from "@/components/marks";
@@ -13,6 +14,7 @@ const page = () => {
       <LastWork />
       <Marks />
       <Testimonial />
+      <Contact />
     </main>
   );
 };
