@@ -59,7 +59,7 @@ const TASTIMONIALS = [
 
 const Testimonial = () => {
   return (
-    <section className="max-w-[1200px] mx-auto px-[68px] py-[42px]">
+    <section className="max-w-[1200px] mx-auto px-[24px] py-[42px]">
       <h1 className="text-[2rem] leading-[2.3125rem] font-semibold text-center mb-[42px]">Testimonial</h1>
       <div className="grid grid-cols-3 gap-6 max-lg:grid-cols-2 max-md:grid-cols-1">
         {TASTIMONIALS.map((tastimonial) => (

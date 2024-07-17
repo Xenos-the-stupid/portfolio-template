@@ -3,7 +3,7 @@ import Button from "./button";
 
 const Contact = () => {
   return (
-    <section className="max-w-[1200px] mx-auto px-[68px] py-[24px]">
+    <section className="max-w-[1200px] mx-auto px-[24px] py-[24px]">
       <h1 className="text-[2rem] font-semibold mb-[24px]">Lets work together</h1>
       <div className="grid grid-cols-2 gap-[142px] max-md:grid-cols-1">
         <div className="space-y-[42px]">
