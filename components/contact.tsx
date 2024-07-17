@@ -24,12 +24,12 @@ const Contact = () => {
           <input
             type="text"
             placeholder="hello"
-            className="px-4 py-3 bg-gray placeholder:text-[1.0625rem] placeholder:text-black placeholder:leading-[1.6875rem]"
+            className="px-4 py-3 bg-gray placeholder:text-[1.0625rem] placeholder:text-black placeholder:leading-[1.6875rem] focus-within:outline-black focus:outline-black focus:outline"
           />
           <input
             type="text"
             placeholder="hello"
-            className="mb-3 px-4 py-3 bg-gray placeholder:text-[1.0625rem] placeholder:text-black placeholder:leading-[1.6875rem]"
+            className="mb-3 px-4 py-3 bg-gray placeholder:text-[1.0625rem] placeholder:text-black placeholder:leading-[1.6875rem] focus-within:outline-black focus:outline-black focus:outline"
           />
           <div role="button">
             <Button>Submit</Button>
